@@ -1,0 +1,140 @@
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ой. Запросы с вашего устройства похожи на автоматически</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .logo {
+            background-image: url("https://main-cdn.sbermegamarket.ru/upload/medialibrary/0/82/a37/082a371fed5d93bd28524123e57a6cfe/62e615b70a2f97d8876a3bbef92b5afc.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin: 40px auto 20px;
+            width: 210px;
+            height: 44px;
+        }
+
+        h1 {
+            font-size: 27px;
+        }
+
+        .captcha {
+            margin: 30px 0;
+        }
+
+        .captcha h3 {
+            margin: 0 0 15px;
+        }
+
+        .support {
+            margin: 10px 0;
+        }
+
+        .extra {
+            margin: 30px 0;
+        }
+
+        .extra p {
+            color: #999;
+            font-size: 90%;
+            font-style: italic;
+            margin: 2px 0 0 0;
+        }
+
+        .btn {
+            border-radius: 24px;
+            border: 1px solid #eee;
+            font-size: 14px;
+            font-weight: 600;
+            height: 50px;
+            line-height: 18px;
+            padding: 0 20px;
+            text-align: center;
+            text-shadow: none;
+        }
+
+        .input-captcha {
+            border: 1px solid #999;
+            border-radius: 6px;
+            font-size: 14px;
+            padding: 3px;
+            margin-right: 5px;
+        }
+
+        .btn-submit {
+            background: #9b38dc;
+            color: white;
+        }
+
+        .link-refresh {
+            color: #9b38dc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="logo"></div>
+
+<form name="form" method="post" action="" id="id_captcha_loaded">
+    <h1>Запросы с вашего устройства похожи на автоматические</h1>
+
+    <div class="captcha">
+        <h3>Введите код с картинки (без пробелов), чтобы продолжить.</h3>
+	<p><img src="captcha_image.php?back_location=https%3a%2f%2fmegamarket.ru%2f%2f&amp;options=f29420a8026649e9ff6b73a403b6b98b31a2ee6ff7c4d19a21128c12fa7d19ec&amp;hcheck=2d02c637e731aef848b328701c799f2e&amp;request_datetime=2024-01-19+23%3a06%3a52+%2b0000&amp;request_ip=136.243.89.21&amp;request_id=q6gFAnwE0iE1&amp;copts_0=0&amp;copts_1=1&amp;copts_2=80&amp;oirutpspid=&amp;oirutpspsc=1705705612781_9bfb0ca6315f20a500004c92a904a240_f29420a8026649e9ff6b73a403b6b98b92584ca483b80b7035189632cf8e8b80" id="captcha_image"></p>
+        <p><input type="text" name="captcha" class="input-captcha"> <a href="javascript:location.reload()" class="link-refresh">обновить</a></p>
+        <p><input type="submit" name="submit" value="Отправить" class="btn btn-submit"></p>
+    </div>
+
+    <div class="support">
+        <p>Если не получается, скопируйте данные ниже<br> и отправьте службе технической поддержки: <a href="mailto:helpme@megamarket.ru?subject=%D0%9C%D0%B5%D0%BD%D1%8F%20%D0%B7%D0%B0%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%20%D0%B2%D0%B0%D1%88%20%D1%81%D0%B0%D0%B9%D1%82&amp;body=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5.%0D%0A%0D%0A%D0%9C%D0%BD%D0%B5%20%D0%B1%D1%8B%D0%BB%20%D0%B7%D0%B0%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%20%D0%BD%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82.%20%D0%A0%D0%B0%D0%B7%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D1%83%D0%B9%D1%82%D0%B5,%20%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D1%83%D0%B9%D1%81%D1%82%D0%B0.%0D%0A%0D%0A%D0%9C%D0%BE%D0%B9%20IP-%D0%B0%D0%B4%D1%80%D0%B5%D1%81:%20136.243.89.21%0D%0A%D0%9C%D0%BE%D0%B9%20ID%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%D0%B0:%20q6gFAnwE0iE1%0D%0A%0D%0A%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE." id="link-support">help@megamarket.ru</a></p>
+
+        <div class="extra">
+            <p>ID запроса: <span id="request-id">q6gFAnwE0iE1</span></p>
+            <p>IP: <span id="request-ip">136.243.89.21</span></p>
+        </div>
+    </div>
+
+</form>
+
+<script async="" src="https://mc.yandex.ru/metrika/tag.js"></script><script>
+    const request_datetime = "2024-01-19 23:06:52 +0000";
+    const request_ip = "136.243.89.21";
+    const request_id = "q6gFAnwE0iE1";
+
+    const support_link_body = document.getElementById("link-support").getAttribute("href")
+        + "?subject=" + encodeURI("Меня заблокировал ваш сайт")
+        + "&body=" + encodeURI("Здравствуйте.\r\n\r\nМне был заблокирован доступ на сайт. Разблокируйте, пожалуйста.\r\n\r\nМой IP-адрес: "+request_ip+"\r\nМой ID запроса: "+request_id+"\r\n\r\nСпасибо.");
+
+    document.getElementById("request-ip").innerText = request_ip;
+    document.getElementById("request-id").innerText = request_id;
+    document.getElementById("link-support").setAttribute("href", support_link_body);
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(90498084, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+<script>
+    if(document.querySelector('div.captcha')) {
+        ym(90498084,'reachGoal','captcha_view')
+    }
+    document.getElementById('form').addEventListener('submit', () => {
+        ym(90498084,'reachGoal','capthca_interaction')
+    })
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/90498084" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</body></html>
