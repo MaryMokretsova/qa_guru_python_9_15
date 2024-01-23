@@ -3,27 +3,27 @@ from selene import browser, have
 
 class FavoritePage:
     def open_shop_page(self):
-        browser.open('/')
+        browser.open('/shop/catalogue/3/sort/a/page/1.html')
         return self
 
     def find_item(self):
-        browser.element('[class*="search-field-input"]').type('100031169627').press_enter()
+        browser.element('[class*="_input_vn1tc_35"]').type('Python для детей. Самоучитель по программированию').press_enter()
         return self
 
     def open_page_item(self):
-        browser.element('button.i4a').click()
+        browser.element('[class*="container"] [class="item__title"]').click()
         return self
 
     def click_add_to_favorites(self):
-        browser.element('button.i4a').click()
+        browser.element('[class*="undefined"] [class="is-heart _icon_ogzmc_34"]').click()
         return self
 
     def open_favorites(self):
-        browser.element('[href*="/my/favorites"]').click()
+        browser.element('[class*="tabs-button favorite"]').click()
         return self
 
     def clear_favorites(self):
-        browser.element('[class*="art-buttons__drop"]').click()
+        browser.element('[class*="undefined"] [class="is-heart _icon_ogzmc_34"]').click()
         return self
 
 
