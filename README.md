@@ -48,15 +48,32 @@ alt="МАЙШОП" width="128" height="64"> </a>
 <img src="/media/screenshots/img2.png">
 3. В случае необходимости изменить параметры и нажать на кнопку "build"
 <img src="/media/screenshots/img3.png">
-4. Результат запуска сборки можно посмотреть в отчёте Allure
-<img src="/media/screenshots/.png">
-5. 
 
 
+### Локальный запуск автотестов
+1. Клонируйте репозиторий
+```ruby
+gh repo clone MaryMokretsova/qa_guru_python_9_15
+```
+2. Создайте и активируйте виртуальное окружение
+  ```ruby
+  python -m venv .venv
+  source .venv/bin/activate
+  ```
+3. Установите зависимости с помощью pip
+  ```ruby
+  pip install -r requirements.txt
+  ```
+4. Запустите автотесты 
+  ```ruby
+  pytest -sv
+  ```
+5. Получите отчёт allure
+```ruby
+allure serve allure-results
+``` 
 
-
-
-
+   
 
 # <a name="AllureReport">Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/10_da-vasilev_qa-guru-hw25/23/allure/)</a>
 
@@ -67,9 +84,16 @@ alt="МАЙШОП" width="128" height="64"> </a>
 >- <code><strong>*TREND*</strong></code> - отображает тренд прохождения тестов от сборки к сборке
 >- <code><strong>*SUITES*</strong></code> - отображает распределение результатов тестов по тестовым наборам
 >- <code><strong>*CATEGORIES*</strong></code> - отображает распределение неуспешно прошедших тестов по видам дефектов
-<p align="center">
 
-[//]: # (  <img src="[[[[images/Allure Report]]]].png" alt="Allure Report" width="650">)
+Результат запуска сборки можно посмотреть в отчёте Allure
+
+При первом запуске не все селекторы отработали корректно
+<p align="center">
+<img src="/media/screenshots/img4.png" alt="Allure Report" width="650">)
+</p>
+При втором запуске тесты прошли успешно
+<p align="center">
+<img src="/media/screenshots/img5.png" alt="Allure Report" width="650">)
 </p>
 
 ### Список тестов c описанием шагов и визуализацией результатов
@@ -78,57 +102,77 @@ alt="МАЙШОП" width="128" height="64"> </a>
 
 
 
-# <a name="AllureTestOps">Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1203/)</a>
+[//]: # ()
+[//]: # (# <a name="AllureTestOps">Интеграция с [Allure TestOps]&#40;https://allure.autotests.cloud/project/1203/&#41;</a>)
 
-### Основной дашборд
-<p align="center">
+[//]: # ()
+[//]: # (### Основной дашборд)
 
-[//]: # (  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="650">)
-</p>
+[//]: # (<p align="center">)
 
-### Дашборд по разным типам тестов
-<p align="center">
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="650">&#41;)
+[//]: # (</p>)
 
-[//]: # (  <img src="images/allureTestOPS dashboards test types.png" alt="dashboards test types" width="650">)
-</p>
+[//]: # ()
+[//]: # (### Дашборд по разным типам тестов)
 
-### Запуски
-<p align="center">
+[//]: # (<p align="center">)
 
-[//]: # (  <img src="images/allureTestOPS launches.png" alt="launches" width="650">)
-</p>
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/allureTestOPS dashboards test types.png" alt="dashboards test types" width="650">&#41;)
+[//]: # (</p>)
 
-### Результат запуска
-<p align="center">
+[//]: # ()
+[//]: # (### Запуски)
 
-[//]: # (  <img src="images/allureTestOPS launch.png" alt="launch" width="750">)
-</p>
+[//]: # (<p align="center">)
 
-### Тест-кейсы
-<p align="center">
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/allureTestOPS launches.png" alt="launches" width="650">&#41;)
+[//]: # (</p>)
 
-[//]: # (  <img src="images/Test cases.png" alt="test cases" width="750">)
-</p>
+[//]: # ()
+[//]: # (### Результат запуска)
 
-### Дефекты
-<p align="center">
+[//]: # (<p align="center">)
 
-[//]: # (  <img src="images/testOps_defect.png" alt="defects" width="750">)
-</p>
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/allureTestOPS launch.png" alt="launch" width="750">&#41;)
+[//]: # (</p>)
+
+[//]: # ()
+[//]: # ([//]: # &#40;### Тест-кейсы&#41;)
+[//]: # ()
+[//]: # ([//]: # &#40;<p align="center">&#41;)
+
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/Test cases.png" alt="test cases" width="750">&#41;)
+[//]: # (</p>)
+
+[//]: # (### Дефекты)
+
+[//]: # (<p align="center">)
+
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/testOps_defect.png" alt="defects" width="750">&#41;)
+[//]: # (</p>)
 
 
-
-<!-- # <a name="Jira">Интеграция с [Jira](https://jira.autotests.cloud/)</a> -->
+[//]: # ()
+[//]: # (<!-- # <a name="Jira">Интеграция с [Jira]&#40;https://jira.autotests.cloud/&#41;</a> -->)
 
 
 
 # <a name="Results">Результаты выполнения тестов</a>
 
-### Пример запуска теста в Browserstack
-<p align="center">
+[//]: # (### Пример запуска теста в Browserstack)
 
-[//]: # (  <img src="images/videoMob.gif" alt="video" width="700">)
-</p>
+[//]: # (<p align="center">)
+
+[//]: # ()
+[//]: # ([//]: # &#40;  <img src="images/videoMob.gif" alt="video" width="700">&#41;)
+[//]: # (</p>)
 
 ### Пример запуска теста в Selenoid
 <p align="center">
