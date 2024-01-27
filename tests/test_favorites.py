@@ -1,12 +1,13 @@
 import allure
 from pages.favorite_page import favorite_page
+from pages.main_menu_page import main_menu_page
 
 
 class TestFavorites:
     @allure.title("Adding and removing a book to favorites")
     def test_item_add_and_delete_favorites(self, browser_management):
         with allure.step("Open marketplace"):
-            favorite_page.open_shop_page()
+            main_menu_page.open_shop_page()
         with allure.step("Number book search"):
             favorite_page.find_item()
         with allure.step("Open product page"):
@@ -15,5 +16,7 @@ class TestFavorites:
             favorite_page.click_add_to_favorites()
         with allure.step("Open favorites"):
             favorite_page.open_favorites()
-        with allure.step("Clear favorites"):
-            favorite_page.clear_favorites()
+        with allure.step("Click delete to favorites"):
+            favorite_page.click_delete_to_favorites()
+        with allure.step("Assert text favorites"):
+            favorite_page.assert_page_favorites()
