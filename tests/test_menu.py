@@ -1,15 +1,15 @@
 import allure
-from pages.main_menu_page import main_menu_page
+from pages.main_page import main_page
 
 
-class TestMainMenu:
+class TestMenu:
 
     def test_main_menu(self, browser_management):
         with allure.step("Open marketplace"):
-            main_menu_page.open_shop_page()
+            main_page.open_shop_page()
         with allure.step("Checking first level menu items"):
-            main_menu_page.assert_header_main_menu()
+            main_page.assert_header_main_menu()
         with allure.step("Checking second level menu items"):
-            main_menu_page.assert_body_main_menu()
+            main_page.assert_body_main_menu()
         with allure.step("Checking third level menu items"):
-            main_menu_page.assert_footer_main_menu()
+            main_page.assert_footer_main_menu()

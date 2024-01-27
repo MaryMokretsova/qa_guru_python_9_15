@@ -1,7 +1,7 @@
 from selene import browser, have
 
 
-class MainMenuPage:
+class MainPage:
 
     def open_shop_page(self):
         browser.open("/")
@@ -22,4 +22,4 @@ class MainMenuPage:
         return self
 
 
-main_menu_page = MainMenuPage()
+main_page = MainPage()

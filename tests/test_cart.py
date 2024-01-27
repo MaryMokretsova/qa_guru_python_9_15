@@ -1,6 +1,6 @@
 import allure
 from pages.cart_page import cart_page
-from pages.main_menu_page import main_menu_page
+from pages.main_page import main_page
 
 
 class TestCart:
@@ -8,7 +8,7 @@ class TestCart:
     @allure.title("Adding and removing a book to cart")
     def test_item_add_and_delete_cart(self, browser_management):
         with allure.step("Open marketplace"):
-            main_menu_page.open_shop_page()
+            main_page.open_shop_page()
         with allure.step("Book search"):
             cart_page.find_item()
         with allure.step("Open product page"):
