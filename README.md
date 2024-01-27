@@ -177,10 +177,8 @@ allure serve allure-results
 
 ### Пример запуска теста в Selenoid
 <p align="center">
-
-    <img src="/media/screenshots/videoUI.mp4" alt="defects" width="900">
-
-[//]: # (<!--     <video src='images/videoMob.mp4' width=450/> -->)
+    <img src="/media/screenshots/videoUI.jpg" alt="defects" width="900">
+<!--     <video src='/media/screenshots/videoMob.mp4' width=450/> -->
 </p>
 
 ### Уведомления в Telegram
