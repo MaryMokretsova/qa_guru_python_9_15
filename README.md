@@ -14,7 +14,6 @@ alt="МАЙШОП" width="128" height="64"> </a>
 * Добавление и удаление товара из корзины
 
 
-## Структура проекта
 # <a name="Technology">Технологии и инструменты</a>
 <p  align="center">
   <code><img width="5%" title="Python" src="media/logo/python.png"></code>
@@ -39,7 +38,7 @@ alt="МАЙШОП" width="128" height="64"> </a>
 **Allure Report, Telegram Bot** используются для визуализации результатов тестирования.
 
 
-## Запуск автотестов выполняется на сервере Jenkins
+# <a name="Jenkins">Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/10_da-vasilev_qa-guru-hw25/)</a>
 > <a target="_blank" href="https://jenkins.autotests.cloud/job  /">Ссылка на проект в Jenkins</a>
 
 
