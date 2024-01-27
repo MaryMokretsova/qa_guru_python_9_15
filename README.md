@@ -177,12 +177,14 @@ allure serve allure-results
 
 ### Пример запуска теста в Selenoid
 <p align="center">
-    <img src="/media/screenshots/videoUI.jpg" alt="defects" width="900">
+
+<img src="/media/screenshots/test.gif" alt="Test example" width="900">
+
 <!--     <video src='/media/screenshots/videoMob.mp4' width=450/> -->
 </p>
 
 ### Уведомления в Telegram
 <p align="center">
 
-[//]: # (  <a href="http://www.pidor.com/"><img src="images/tlgrm.png" alt="Telegram" width="550"></a>)
+  <img src="/media/screenshots/img6.jpeg" alt="Telegram" width="550"></a>
 </p>
