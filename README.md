@@ -180,11 +180,13 @@ allure serve allure-results
 
 <img src="/media/screenshots/test.gif" alt="Test example" width="900">
 
+<video src='/media/screenshots/videoMob.mp4' width=450/>
+
 <!--     <video src='/media/screenshots/videoMob.mp4' width=450/> -->
 </p>
 
 ### Уведомления в Telegram
 <p align="center">
 
-  <img src="/media/screenshots/img6.jpeg" alt="Telegram" width="550"></a>
+  <img src="/media/screenshots/img6.jpeg" alt="Telegram" width="350"></a>
 </p>
