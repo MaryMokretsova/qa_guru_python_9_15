@@ -31,9 +31,8 @@ alt="МАЙШОП" width="128" height="64"> </a>
 </p>
 
 
-В данном проекте автотесты написаны на **Python** с использованием фреймворка **Pytest**,
-используя популярные библиотеки **Selene, WebDriver-Manager, Selenium**.
-Запуск тестов выполняется из **Jenkins**.
+В данном проекте автотесты написаны на **Python** с использованием фреймворка **Pytest** и популярных библиотек **Selene, WebDriver-Manager, Selenium**.
+Из **Jenkins** выполняется запуск тестов выполняется.
 **Selenoid** используется для запуска браузеров в контейнерах **Docker**.
 **Allure Report, Telegram Bot** используются для визуализации результатов тестирования.
 
@@ -89,16 +88,18 @@ allure serve allure-results
 
 При первом запуске не все селекторы отработали корректно
 <p align="center">
-<img src="/media/screenshots/img4.png" alt="Allure Report" width="650">)
+<img src="/media/screenshots/img4.png" alt="Allure Report" width="750">)
 </p>
 При втором запуске тесты прошли успешно
 <p align="center">
-<img src="/media/screenshots/img5.png" alt="Allure Report" width="650">)
+<img src="/media/screenshots/img5.png" alt="Allure Report" width="750">)
 </p>
 
-### Список тестов c описанием шагов и визуализацией результатов
-На данной странице представляется стандартное распределение выполнявшихся тестов по тестовым наборам или классам, в
-которых находятся тестовые методы.
+[//]: # (### Список тестов c описанием шагов и визуализацией результатов)
+
+[//]: # (На данной странице представляется стандартное распределение выполнявшихся тестов по тестовым наборам или классам, в)
+
+[//]: # (которых находятся тестовые методы.)
 
 
 
@@ -177,7 +178,7 @@ allure serve allure-results
 ### Пример запуска теста в Selenoid
 <p align="center">
 
-[//]: # (    <img src="images/videoUI.jpg" alt="defects" width="900">)
+    <img src="/media/screenshots/videoUI.mp4" alt="defects" width="900">
 
 [//]: # (<!--     <video src='images/videoMob.mp4' width=450/> -->)
 </p>
