@@ -1,6 +1,13 @@
 <h1 align="center">Проект по тестированию онлайн-магазина 
 </h1>
 
+<h1 align="center">Проект по тестированию онлайн-магазина 
+<p align="center">
+<a href="https://my-shop.ru/" target="_blank">
+<img src="https://s.rbk.ru/v1_companies_s3/resized/960xH/media/trademarks/91cbd2c0-7f6c-48e5-ba52-f72f348a2f65.jpg" 
+alt="МАЙШОП" width="128" height="64"> </a> 
+</p></h1>
+
 <!-- Тест кейсы -->
 
 ## Автоматизировано тестирование функционала:
