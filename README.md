@@ -41,7 +41,16 @@ alt="МАЙШОП" width="128" height="64"> </a>
 # <a name="Jenkins">Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/10_da-vasilev_qa-guru-hw25/)</a>
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/C09-MaryMokretsova-unit15/">Ссылка на проект в Jenkins</a>
 
-
+### Для запуска автотестов в Jenkins
+1. Открыть проект
+<img src="/media/screenshots/img1.png">
+2. Выбрать пункт "Собрать с параметрами"
+<img src="/media/screenshots/img2.png">
+3. В случае необходимости изменить параметры и нажать на кнопку "build"
+<img src="/media/screenshots/img3.png">
+4. Результат запуска сборки можно посмотреть в отчёте Allure
+<img src="/media/screenshots/.png">
+5. 
 
 
 

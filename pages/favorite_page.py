@@ -10,7 +10,7 @@ class FavoritePage:
         return self
 
     def open_page_item(self):
-        browser.element('[class*="item"] [class*="item__title__container"]').click()
+        browser.element('[class*="container"] [class="item__title"]').click()
         return self
 
     def click_add_to_favorites(self):
