@@ -178,7 +178,7 @@ allure serve allure-results
 ### Пример запуска теста в Selenoid
 <p align="center">
 
-<img src="/media/screenshots/test.gif" alt="Test example" width="900">
+<img src="/media/screenshots/test.gif" alt="Test example">
 </p>
 
 ### Уведомления в Telegram
