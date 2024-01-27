@@ -39,7 +39,7 @@ alt="МАЙШОП" width="128" height="64"> </a>
 
 
 # <a name="Jenkins">Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/10_da-vasilev_qa-guru-hw25/)</a>
-> <a target="_blank" href="https://jenkins.autotests.cloud/job  /">Ссылка на проект в Jenkins</a>
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/C09-MaryMokretsova-unit15/">Ссылка на проект в Jenkins</a>
 
 
 
