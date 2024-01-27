@@ -179,8 +179,6 @@ allure serve allure-results
 <p align="center">
 
 <img src="/media/screenshots/test.gif" alt="Test example" width="900">
-
-<!--     <video src='/media/screenshots/videoMob.mp4' width=450/> -->
 </p>
 
 ### Уведомления в Telegram
