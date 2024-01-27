@@ -15,16 +15,8 @@ alt="МАЙШОП" width="128" height="64"> </a>
 
 
 ## Структура проекта
-### Проект реализован с использованием
-
-
-
-|                                Python                                 |                                 Pycharm                                 |                                Pytest                                |                                 Selenium                                 |                                Selene                                |                                GitHub                                |                              Jenkins                              |                                  Selenoid                                  |                                    Allure Report                                     |                                    Allure TestOps                                    |                             Jira                              |                              Telegram                              |
-|:---------------------------------------------------------------------:|:-----------------------------------------------------------------------:|:--------------------------------------------------------------------:|:------------------------------------------------------------------------:|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|:-----------------------------------------------------------------:|:--------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:-------------------------------------------------------------:|:------------------------------------------------------------------:|
-|<img src="/media/logo/python.png" alt="Python" width="35" height="35"> |<img src="/media/logo/pycharm.png" alt="Pycharm" width="35" height="35"> |<img src="/media/logo/pytest.png" alt="Pytest" width="35" height="35">|<img src="/media/logo/selenium.png" alt="Selenium" width="35" height="35">|<img src="/media/logo/selene.png" alt="Selene" width="35" height="35">|<img src="/media/logo/github.png" alt="GitHub" width="35" height="35">| <img src="/media/logo/jenkins.png" alt="Jenkins" width="35" height="35"> | <img src="/media/logo/selenoid.png" alt="Selenoid" width="35" height="35"> | <img src="/media/logo/allure_report.png" alt="Allure Report" width="35" height="35"> |<img src="/media/logo/allure_testops.png" alt="Allure TestOps" width="35" height="35">|<img src="/media/logo/jira.png" alt="Jira" width="35" height="35"> | <img src="/media/logo/tg.png" alt="Telegram" width="35" height="35"> |
-
-
-<p  align="left">
+# <a name="Technology">Технологии и инструменты</a>
+<p  align="center">
   <code><img width="5%" title="Python" src="media/logo/python.png"></code>
   <code><img width="5%" title="Pycharm" src="media/logo/pycharm.png"></code>
   <code><img width="5%" title="Pytest" src="media/logo/pytest.png"></code>
@@ -38,6 +30,13 @@ alt="МАЙШОП" width="128" height="64"> </a>
   <code><img width="5%" title="Jira" src="media/logo/jira.png"></code>
   <code><img width="5%" title="Telegram" src="media/logo/tg.png"></code>
 </p>
+
+
+В данном проекте автотесты написаны на **Python** с использованием фреймворка **Pytest**,
+используя популярные библиотеки **Selene, WebDriver-Manager, Selenium**.
+Запуск тестов выполняется из **Jenkins**.
+**Selenoid** используется для запуска браузеров в контейнерах **Docker**.
+**Allure Report, Telegram Bot** используются для визуализации результатов тестирования.
 
 
 ## Запуск автотестов выполняется на сервере Jenkins
