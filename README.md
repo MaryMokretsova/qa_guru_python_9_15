@@ -33,9 +33,78 @@ alt="МАЙШОП" width="128" height="64"> </a>
 >- <code><strong>*SUITES*</strong></code> - отображает распределение результатов тестов по тестовым наборам
 >- <code><strong>*CATEGORIES*</strong></code> - отображает распределение неуспешно прошедших тестов по видам дефектов
 <p align="center">
-  <img src="[[[[images/Allure Report]]]].png" alt="Allure Report" width="650">
+
+[//]: # (  <img src="[[[[images/Allure Report]]]].png" alt="Allure Report" width="650">)
 </p>
 
 ### Список тестов c описанием шагов и визуализацией результатов
 На данной странице представляется стандартное распределение выполнявшихся тестов по тестовым наборам или классам, в
 которых находятся тестовые методы.
+
+
+
+# <a name="AllureTestOps">Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/1203/)</a>
+
+### Основной дашборд
+<p align="center">
+
+[//]: # (  <img src="images/allureTestOPS dashboards.png" alt="dashboards" width="650">)
+</p>
+
+### Дашборд по разным типам тестов
+<p align="center">
+
+[//]: # (  <img src="images/allureTestOPS dashboards test types.png" alt="dashboards test types" width="650">)
+</p>
+
+### Запуски
+<p align="center">
+
+[//]: # (  <img src="images/allureTestOPS launches.png" alt="launches" width="650">)
+</p>
+
+### Результат запуска
+<p align="center">
+
+[//]: # (  <img src="images/allureTestOPS launch.png" alt="launch" width="750">)
+</p>
+
+### Тест-кейсы
+<p align="center">
+
+[//]: # (  <img src="images/Test cases.png" alt="test cases" width="750">)
+</p>
+
+### Дефекты
+<p align="center">
+
+[//]: # (  <img src="images/testOps_defect.png" alt="defects" width="750">)
+</p>
+
+
+
+<!-- # <a name="Jira">Интеграция с [Jira](https://jira.autotests.cloud/)</a> -->
+
+
+
+# <a name="Results">Результаты выполнения тестов</a>
+
+### Пример запуска теста в Browserstack
+<p align="center">
+
+[//]: # (  <img src="images/videoMob.gif" alt="video" width="700">)
+</p>
+
+### Пример запуска теста в Selenoid
+<p align="center">
+
+[//]: # (    <img src="images/videoUI.jpg" alt="defects" width="900">)
+
+[//]: # (<!--     <video src='images/videoMob.mp4' width=450/> -->)
+</p>
+
+### Уведомления в Telegram
+<p align="center">
+
+[//]: # (  <a href="http://www.pidor.com/"><img src="images/tlgrm.png" alt="Telegram" width="550"></a>)
+</p>
