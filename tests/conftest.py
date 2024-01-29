@@ -37,7 +37,7 @@ def browser_management():
     )
 
     browser.config.driver = driver
-    browser.config.base_url = "https://demoqa.com/"
+    browser.config.base_url = "https://my-shop.ru"
     browser.config.window_height = 1080
     browser.config.window_width = 1920
 
