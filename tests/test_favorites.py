@@ -5,7 +5,7 @@ from pages.main_page import main_page
 
 class TestFavorites:
     @allure.title("Adding and removing a book to favorites")
-    def test_item_add_and_delete_favorites(self, browser_management):
+    def test_item_add_and_delete_favorites(self):
         with allure.step("Open marketplace"):
             main_page.open_shop_page()
         with allure.step("Number book search"):

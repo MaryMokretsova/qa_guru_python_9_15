@@ -4,7 +4,7 @@ from pages.main_page import main_page
 
 class TestMenu:
 
-    def test_main_menu(self, browser_management):
+    def test_main_menu(self):
         with allure.step("Open marketplace"):
             main_page.open_shop_page()
         with allure.step("Checking first level menu items"):
